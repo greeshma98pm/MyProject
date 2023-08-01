@@ -9,12 +9,12 @@ public class PrintClass implements InterfaceEg{
 		obj.print1();
 	}
 
-	@Override
-	public void print1() {
+	@Override  //must override/implement all abstract methods of parent in non abstract class.
+	public void print1() 
+	{
+		
 		System.out.println("print method");
 		
 	}
-
-	
 
 }

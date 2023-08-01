@@ -11,6 +11,7 @@ public class Circle extends Shape{
     Shape obj1=new Shape();
     obj1.findingArea();
 	}
+	
     public void findingArea()
 	
 	{

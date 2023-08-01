@@ -1,15 +1,15 @@
 package com.superkeyword;
 
-public class A 
+public class ConstructorA 
 {
 	int a;
 	
-	A()
+    ConstructorA()
 	{
 		System.out.println("PARENT DEFAULT CONSTRUCTOR");
 	}
 	
-	A(int a)
+	ConstructorA(int a)
 	{
 		System.out.println("PARENT PARAMETRIZED CONSTRUCTOR");
 	}
